@@ -21,7 +21,7 @@ script:
   - export CC=/usr/bin/gcc-6
   - export CXX=/usr/bin/g++-6
   
-  - cmake ../mp13_lab_plex
+  - cmake ../lab13_plex
   - make -j
   - ./test/MP13_TESTS
 notifications:
